@@ -1,0 +1,64 @@
+:root {
+    --text-white: rgb(248, 233, 255);
+    --background-black: rgb(28, 25, 29);
+    --background-blue: rgb(59, 59, 99);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    color: var(--text-white);
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    background: linear-gradient(
+        var(--background-black) 30%,
+        var(--background-blue)
+    ); 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list a {
+    display: block;
+    font-size: 2rem;
+    padding: 2.5rem;
+    color: var(--text-white);
+}   
+
