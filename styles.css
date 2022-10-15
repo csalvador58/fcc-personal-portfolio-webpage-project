@@ -163,7 +163,10 @@ h2 {
     font-weight: 400;
     font-style: italic;
     color: var(--text-black-alt);
-    text-shadow: var(--background-gold) 1px 0 5px;
+    background-color: var(--background-gold);
+    padding-left: 2.5rem;
+    padding-right: 3.10rem;
+    /* text-shadow: var(--background-gold) 1px 0 5px; */
 }
 
 
